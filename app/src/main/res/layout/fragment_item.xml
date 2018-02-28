@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.perpule.ui.home.ItemFragment">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/hello_blank_fragment"
+      android:textSize="26dp"
+      android:layout_centerInParent="true"
+      android:id="@+id/item_name"/>
+<Button
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/item_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/continueSong"
+    android:text="Continue"/>
+</RelativeLayout>
